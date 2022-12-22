@@ -12,10 +12,11 @@
 .card{
     min-height: 70vh;
 }
-.emptyMessage{
+.empty-message{
     flex:100%;
     padding: 20vmin;
     text-align: center;
-    // color: $grayColor
+    color: $grayColor;
+    font-size: 32px;
     
 }

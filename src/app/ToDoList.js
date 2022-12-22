@@ -37,7 +37,7 @@ const renderItem =  (item, index) =>(
             {toDos?.length>0?
                 toDos?.map(renderItem):
                 // <Box flex={1} padding={10} justifyContent='center' textAlign={'center'} sx={{color:'gray', fontSize:20, fontWeight:'bold'}}>No task added</Box>
-                <div className='emptyMessage'><p>No task added</p></div>
+                <div className='empty-message'>No task added</div>
             }
             </div>
         </CustomCard>
