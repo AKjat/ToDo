@@ -1,0 +1,21 @@
+@import './variables.scss';
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 80px;
+}
+.container{
+    padding-left: 10vw;
+    padding-right: 10vw;
+}
+.card{
+    min-height: 70vh;
+}
+.emptyMessage{
+    flex:100%;
+    padding: 20vmin;
+    text-align: center;
+    // color: $grayColor
+    
+}

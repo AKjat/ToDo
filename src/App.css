@@ -9,10 +9,10 @@
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
-    animation: App-logo-float infinite 3s ease-in-out;
+    -webkit-animation: App-logo-float infinite 3s ease-in-out;
+            animation: App-logo-float infinite 3s ease-in-out;
   }
 }
-
 .App-header {
   min-height: 100vh;
   display: flex;
@@ -26,9 +26,10 @@
   color: rgb(112, 76, 182);
 }
 
-@keyframes App-logo-float {
+@-webkit-keyframes App-logo-float {
   0% {
     transform: translateY(0);
+    rotate: "20%";
   }
   50% {
     transform: translateY(10px);
@@ -37,3 +38,16 @@
     transform: translateY(0px);
   }
 }
+
+@keyframes App-logo-float {
+  0% {
+    transform: translateY(0);
+    rotate: "20%";
+  }
+  50% {
+    transform: translateY(10px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}/*# sourceMappingURL=App.css.map */

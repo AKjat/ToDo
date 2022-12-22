@@ -1,0 +1,73 @@
+// .App {
+//   text-align: center;
+// }
+
+// .App-logo {
+//   height: 40vmin;
+//   pointer-events: none;
+// }
+
+@import '/src/styles/variables.scss';
+h2{
+    color: $darkGrayColor;
+    font-size: 32px;
+    font-weight: 700;
+}
+h1{
+    color: $blackColor;
+    font-size: 16px;
+    font-weight: 600;
+}
+.input-label{
+  color: $darkGrayColor;
+  font-size: 16px;
+}
+.label{
+  color: $grayColor;
+  font-size: 14px;
+}
+.errorText{
+  font-weight: 500;
+  font-size: 10px;
+  color: $redColor
+}
+p{
+  color: $blackColor;
+  font-size: 14px;
+}
+.margin-top{
+  margin-top: 1vh;
+}
+
+
+// @media (prefers-reduced-motion: no-preference) {
+//   .App-logo {
+//     animation: App-logo-float infinite 3s ease-in-out;
+//   }
+// }
+
+// .App-header {
+//   min-height: 100vh;
+//   display: flex;
+//   flex-direction: column;
+//   align-items: center;
+//   justify-content: center;
+//   font-size: calc(10px + 2vmin);
+// }
+
+// .App-link {
+//   color: rgb(112, 76, 182);
+// }
+
+// @keyframes App-logo-float {
+//   0% {
+//     transform: translateY(0);
+//     rotate: '20%'
+//   }
+//   50% {
+//     transform: translateY(10px);
+//   }
+//   100% {
+//     transform: translateY(0px);
+//   }
+// }
